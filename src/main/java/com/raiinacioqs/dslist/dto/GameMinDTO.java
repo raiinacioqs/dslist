@@ -14,12 +14,12 @@ public class GameMinDTO {
 
     }
 
-    public GameMinDTO(Game enitity) {
-        id = enitity.getId();
-        title = enitity.getTitle();
-        year = enitity.getYear();
-        imgUrl = enitity.getImgUrl();
-        shortDescription = enitity.getShortDescription();
+    public GameMinDTO(Game entity) {
+        id = entity.getId();
+        title = entity.getTitle();
+        year = entity.getYear();
+        imgUrl = entity.getImgUrl();
+        shortDescription = entity.getShortDescription();
     }
 
     public Long getId() {
